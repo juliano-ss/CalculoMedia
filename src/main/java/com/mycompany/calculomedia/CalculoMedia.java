@@ -29,7 +29,12 @@ public class CalculoMedia {
 
         media = (nota1 + nota2 + nota3) / 3;
 
-        System.out.println("A média do aluno é: " + media);
-        System.out.println("asad");
+        if (media < 5) {
+            System.out.println("Infelizmente o aluno está de reprovado, a média foi: " + media);
+
+        } else {
+            System.out.println("Parabéns!!, você passou a média foi: " + media);
+        }
+
     }
 }
