@@ -6,6 +6,7 @@
 package com.mycompany.calculomedia;
 
 import java.util.Scanner;
+
 /**
  *
  * @author jotal
@@ -13,7 +14,7 @@ import java.util.Scanner;
 public class CalculoMedia {
 
     public static void main(String[] args) {
-        
+
         Scanner input = new Scanner(System.in);
         double nota1, nota2, nota3, media;
 
@@ -29,5 +30,6 @@ public class CalculoMedia {
         media = (nota1 + nota2 + nota3) / 3;
 
         System.out.println("A média do aluno é: " + media);
+        System.out.println("asad");
     }
 }
