@@ -20,7 +20,7 @@ public class CalculoMedia {
 
         for (int i = 0; i < media.length; i++) {
 
-            System.out.print("Digite a primeira nota: ");
+            System.out.println("Digite a primeira nota: ");
             double nota1 = input.nextDouble();
 
             System.out.print("Digite a segunda nota: ");
@@ -49,6 +49,10 @@ public class CalculoMedia {
 
             if (media[i] >= 5) {
                 System.out.println("Aluno aprovado!");
+
+            } else if (media[i] >= 4 && media[i] < 6) {
+                System.out.println("Aluno em recuperação!");
+
             } else {
                 System.out.println("Aluno reprovado!");
             }
