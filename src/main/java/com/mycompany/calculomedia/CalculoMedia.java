@@ -40,6 +40,17 @@ public class CalculoMedia {
 
         }
 
+        System.out.println("Médias calculadas:");
+        for (int i = 0; i < media.length; i++) {
+            System.out.printf("%.2f - ", media[i]);
+
+            if (media[i] >= 5) {
+                System.out.println("Aluno aprovado!");
+            } else {
+                System.out.println("Aluno reprovado!");
+            }
+        }
+
     }
 
 }
