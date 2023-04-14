@@ -32,10 +32,10 @@ public class CalculoMedia {
             media[i] = (nota1 + nota2 + nota3) / 3;
 
             if (media[i] < 5) {
-                System.out.println("Infelizmente o aluno está de reprovado, a média foi : " + media[i]);
+                System.out.println("Infelizmente o aluno está de reprovado, a média foi : %.2f%n" + media[i]);
 
             } else {
-                System.out.println("Parabéns!! você passou a média foi: " + media[i]);
+                System.out.println("Parabéns!! você passou a média foi: %.2f%n" + media[i]);
             }
 
         }
