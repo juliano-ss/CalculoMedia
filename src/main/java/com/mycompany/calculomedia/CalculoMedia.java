@@ -34,6 +34,9 @@ public class CalculoMedia {
             if (media[i] < 5) {
                 System.out.println("Infelizmente o aluno está de reprovado, a média foi : %.2f%n" + media[i]);
 
+            } else if (media[i] >= 5 && media[i] < 6) {
+                System.out.println("O aluno está em recuperação, a média foi: " + media[i]);
+
             } else {
                 System.out.println("Parabéns!! você passou a média foi: %.2f%n" + media[i]);
             }
