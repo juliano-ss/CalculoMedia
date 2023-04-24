@@ -1,4 +1,4 @@
-CalculoMedia
+﻿CalculoMédia
 
 Este é um programa que calcula a média de notas de 30 alunos e informa se eles foram aprovados, reprovados ou estão em recuperação.
 
