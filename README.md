@@ -20,4 +20,3 @@ Se a média for entre 5 e 6, o programa exibe "O aluno está em recuperação". 
 ## Tratamento de erros
 
 O programa não realiza tratamento de erros para as entradas do usuário. Portanto, é importante que o usuário digite apenas números para as notas.
-Caso contrário, o programa pode apresentar comportamento inesperado.
