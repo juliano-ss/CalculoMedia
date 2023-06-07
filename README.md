@@ -7,7 +7,7 @@ Este programa calcula a média de três notas de 30 alunos e verifica se eles fo
 1. Compile o programa utilizando um compilador Java
 2. Execute o arquivo compilado
 3. Digite as notas dos alunos quando solicitado pelo programa
-4. O programa exibirá a média e a situação do aluno
+4. O programa exibirá a média e a situação do aluno.
 
 ## Funcionamento
 
