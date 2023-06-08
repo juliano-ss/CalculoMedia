@@ -15,7 +15,7 @@ O programa utiliza um loop `for` para solicitar as notas dos 30 alunos e armazen
 Em seguida, outro loop `for` é utilizado para exibir as médias e as situações dos alunos.
 
 Se a média do aluno for menor que 5, o programa exibe "Infelizmente o aluno está de reprovado". 
-Se a média for entre 5 e 6, o programa exibe "O aluno está em recuperação". Se a média for maior ou igual a 6, o programa exibe "Parabéns!! você passou".
+Se a média for entre 5 e 6, o programa exibe "O aluno está em recuperação". Se a média for maior ou igual a 6, o programa exibe "Parabéns!! você passou"..
 
 ## Tratamento de erros
 
